@@ -82,14 +82,14 @@ The following performance score were calculated for each models :
 ---
 ### Step 6 : Validation of the selected Classification Models
 ---
-More detailed results can be found here [Results](Notebook/Results.md)
+More detailed results can be found here [Results](notebook/Results.md)
 
 
 The accuracy is not the only scores that matters. As seen during this project, the scoring method best suited to optimize a Classification model is really dependent on the goal that the model need to achieve.
 
 In this case, the client wanted to forecast the hit event the most accurately while minimizing the missed event. Therefore, a scoring method that would have balanced the dataset and try to find the best model that tend to have 0 False Negative, while optimizing the balanced accuracy would have been the best scoring method for this project.
 
-![Confusion Matrix](../graph/tempo.png)
+![Confusion Matrix](graph/tempo.png)
 </br></br>
 
 It is a lesson learn that a model with the most accuracy does not always provide the best forecast.
@@ -99,7 +99,8 @@ We were not able to provide a better model than the pre-existing model used to p
 
 | Balanced Model</br>DecisionTreeClassifier              | Balanced Model</br>Random Forest                  | Client pre-existing model</br> Churn Score               |
 |-----------------------|-----------------------|-----------------------|
-| ![Confusion Matrix Balanced Model](../graph/ConfusionMatrix_val_BalancedModel.png) | ![Confusion Matrix Best Model](../graph/ConfusionMatrix_val_BestModel1.png) |  ![Confusion Matrix Balanced Model](../graph/ConfusionMatrix_val_ChurnScore.png) | 
+| ![Confusion Matrix Balanced Model](graph/ConfusionMatrix_val_BalancedModel.png) | ![Confusion Matrix Best Model](graph/ConfusionMatrix_val_BestModel1.png) |  ![Confusion Matrix Balanced Model](graph/ConfusionMatrix_val_ChurnScore.png) | 
+
 
 </br></br></br>
 <center>
